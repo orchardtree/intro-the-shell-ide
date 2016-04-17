@@ -8,6 +8,8 @@ You may sometimes hear the shell referred to as your "command line" or "terminal
 
 [Download Video](http://flatiron-videos.s3.amazonaws.com/ironboard/welcome%20to%20the%20shell.mp4)
 
-As you're going through the Intro to Ruby track, you won't be working with the shell in your computer, but instead the Integrated Development Environment that you've already set up mimics the behavior of the shell. In this way, you'll still be learning how to use a console which is crucial for any programmer. The console is your workbench; get to love it.. 
+As you start making progress on Learn, you'll start out by using the shell in the Learn IDE. Learning how to use the shell is crucial for any programmer; it's your workbench, get to love it.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-the-shell-ide'>Intro the Shell IDE</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-the-shell-ide'>Intro to the Shell</a> on Learn.co and start learning to code for free.</p>
