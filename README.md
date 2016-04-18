@@ -12,6 +12,6 @@ The video below describes what the "native" shell (by which we mean the one that
 
 As you start making progress on Learn, you'll start out by using the shell in the Learn IDE itself which acts the same as a "native" shell, except it's running against a server we've configured for you. More on that soon.
 
-Next, you'll learn more abou the basic commands you'll use in the shell. Get love your shell, it's crucial for any programmer—it's your workbench!
+Next, you'll learn more about the basic commands you'll use in the shell. Get to love your shell. It's crucial for any programmer—it's your workbench!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-the-shell-ide'>Intro to the Shell</a> on Learn.co and start learning to code for free.</p>
