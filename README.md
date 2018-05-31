@@ -15,7 +15,7 @@ techniques they've learned. They can imagine what might be wrong. To get more
 data or to verify their guess, they _open up the hood_. Learning to be a
 developer (_computer mechanic_?) is similar. You must start "looking under the
 hood" of your computer. To access the "hood's" contents, you must use the
-command prompt.
+shell.
 
 Developers "talk" to the computer by engaging it at the shell level. The shell
 is just another way to collaborate with the computer. It might feel
@@ -23,7 +23,7 @@ is just another way to collaborate with the computer. It might feel
 more, though, it might surprise you!
 
 Shell skills are critical in being a developer or HTML author.  Comfort in the
-command prompt is an assumption for many technical jobs.
+shell is an assumption for many technical jobs.
 
 ## Learning Objectives
 
@@ -33,7 +33,7 @@ command prompt is an assumption for many technical jobs.
 
 ## Define What a Shell Program Is
 
-The Shell is the program on your computer that takes in commands you type and
+The shell is the program on your computer that takes in commands you type and
 takes action based on those commands. You can think of yourself as having a
 conversation with the computer.
 
@@ -53,7 +53,7 @@ programs like `ruby my_awesome_program.rb` or even to launch an application!
 
 ## Recognize a Shell Interface
 
-A "shell" interface looks like the following pictures below.
+A shell interface looks like the following pictures below.
 
 Typically you'll be given some text output and a command prompt. The prompt
 will receive commands. You tell the shell you're done typing and that it should
@@ -64,9 +64,9 @@ error message. Then you'll be given another prompt and can do it again, and
 again, and again.... This cycle can be called a "prompt-evaluation-response
 cycle."
 
-Here's the Learn In-Browser IDE's shell. Since the command prompt is so
+Here's the Learn In-Browser IDE's shell. Since the shell environment is so
 important for our Learn-based learners, whenever you open the IDE the command
-prompt is also shown. You will interacting with the command prompt when you run
+prompt is also shown. You will interacting with the shell when you run
 commands like `learn` and `learn submit`.
 
 <img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
@@ -86,7 +86,7 @@ screen (the "response").
 You may sometimes hear the shell referred to as your "command line" or
 "terminal" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the Shell.
+interacting with the shell.
 
 ## Recognize Operating Systems Providing a Shell
 
