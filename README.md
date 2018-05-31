@@ -65,9 +65,9 @@ again, and again.... This cycle can be called a "prompt-evaluation-response
 cycle."
 
 Here's the Learn In-Browser IDE's shell. Since the shell environment is so
-important for our Learn-based learners, whenever you open the IDE the command
-prompt is also shown. You will interacting with the shell when you run
-commands like `learn` and `learn submit`.
+important for us, whenever you open the IDE the command prompt is also shown.
+You will interacting with the shell when you run commands like `learn` and
+`learn submit`.
 
 <img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
 
