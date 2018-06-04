@@ -1,4 +1,4 @@
-# Introduction to the Shell
+# Introduction to the Terminal
 
 ## Problem Statement
 
@@ -15,29 +15,29 @@ techniques they've learned. They can imagine what might be wrong. To get more
 data or to verify their guess, they _open up the hood_. Learning to be a
 developer (_computer mechanic_?) is similar. You must start "looking under the
 hood" of your computer. To access the "hood's" contents, you must use the
-shell.
+terminal.
 
-Developers "talk" to the computer by engaging it at the shell level. The shell
+Developers "talk" to their computers through the terminal. The termninal
 is just another way to collaborate with the computer. It might feel
 "old-school" or clunky at first compared with Windows or MacOSX. As you learn
 more, though, it might surprise you!
 
-Shell skills are critical in being a developer or HTML author.  Comfort in the
-shell is an assumption for many technical jobs.
+Terminal skills are critical in being a developer or HTML author.  Comfort in the
+terminal is an assumption for many technical jobs.
 
 ## Learning Objectives
 
-1. Define what a shell program is
-2. Recognize a shell interface
-3. Recognize operating systems providing a shell
+1. Define what a terminal program is
+2. Recognize a terminal interface
+3. Recognize that operating systems providing a terminal
 
-## Define What a Shell Program Is
+## Define What a Terminal Program Is
 
-The shell is the program on your computer that takes in commands you type and
+The terminal is the program on your computer that takes in commands you type and
 takes action based on those commands. You can think of yourself as having a
 conversation with the computer.
 
-When you see a shell it will be at a "command prompt." This means, from the
+When you see a terminal it will be at a "command prompt." This means, from the
 computer's perspective "I'm listening..." Prompts may look different from
 computer to computer. Customized prompts express developer uniqueness. We've
 seen weather reports, beautiful colors, computer temperatures in prompts. At
@@ -51,22 +51,22 @@ computer recover without requiring a reboot ("Hm, computer, time to kill that
 hung Chrome tab with the Twitch stream...").  You can ask the computer to run
 programs like `ruby my_awesome_program.rb` or even to launch an application!
 
-## Recognize a Shell Interface
+## Recognize a Terminal Interface
 
-A shell interface looks like the following pictures below.
+A terminal interface looks like the following pictures below.
 
 Typically you'll be given some text output and a command prompt. The prompt
-will receive commands. You tell the shell you're done typing and that it should
+will receive commands. You tell the terminal you're done typing and that it should
 consider your request by hitting `return` or `enter`. After receiving your
-command the shell will respond with the information you requested, or will
+command the terminal will respond with the information you requested, or will
 signal that it did your bidding (say renaming a file), or it will print an
 error message. Then you'll be given another prompt and can do it again, and
 again, and again.... This cycle can be called a "prompt-evaluation-response
 cycle."
 
-Here's the Learn In-Browser IDE's shell. Since the shell environment is so
+Here's the Learn In-Browser IDE's terminal. Since the terminal environment is so
 important for us, whenever you open the IDE the command prompt is also shown.
-You will interacting with the shell when you run commands like `learn` and
+You will interacting with the terminal when you run commands like `learn` and
 `learn submit`.
 
 <img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
@@ -83,24 +83,24 @@ screen (the "response").
 
 <img alt="MacOSX Shell response" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/prompt_response.png" width=595>
 
-You may sometimes hear the shell referred to as your "command line" or
-"terminal" or "console". There are some subtle differences between each of
+You may sometimes hear the terminal referred to as your "command line" or
+"shell" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the shell.
+interacting with the terminal.
 
-## Recognize Operating Systems Providing a Shell
+## Recognize Operating Systems Providing a Terminal
 
 All operating systems (MacOS, Windows, and Linux / Unix) provide
-a shell! While developers often disagree about which  is the
-best, time has borne out that they nearly all agree that a shell-based
+a terminal! While developers often disagree about which  is the
+best, time has borne out that they nearly all agree that a terminal-based
 interface is a power-tool they can't live without.
 
 ## Conclusion
 
-Ultimately a shell is a way for you to interact with your computer. It's a
+Ultimately a terminal is a way for you to interact with your computer. It's a
 different style than the point-and-click graphical user interfaces that you
 might know, but it is incredibly powerful and is the workbench of many
-developers. Shell interfaces are provided by all major operating systems and
+developers. Terminal interfaces are provided by all major operating systems and
 are marked by their prompt, evaluation, response cycle.
 
 
