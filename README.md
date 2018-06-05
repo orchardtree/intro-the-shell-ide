@@ -8,8 +8,8 @@ _user_ not a _developer_.
 
 What's the difference? Well consider a mechanic driving to work. In that
 moment, waiting in traffic, they are a _user_ of the car. But then they take a
-right turn and *cough*, *splutter* their car chokes to a stop. At once their
-mind changes to being a _mechanic_ or a _developer_. They think about
+right turn and *cough*, *splutter* &mdash; their car chokes to a stop. At once
+their mind changes to being a _mechanic_ or a _developer_. They think about
 petroleum, spark-plugs and ignitions. They can _debug_ their car using
 techniques they've learned. They can imagine what might be wrong. To get more
 data or to verify their guess, they _open up the hood_. Learning to be a
@@ -33,15 +33,32 @@ terminal is an assumption for many technical jobs.
 
 ## Define What a Terminal Program Is
 
+### Advice
+
 First of all, we have to be honest here: the difference between "shell" and
 "terminal" is quite easy to get confused by. To make things worse, developers
-are often really imprecise and say one to mean the other and vice versa. This
-makes it harder for those learning about these tools. Be patient with yourself
-as you learn this material.
+are often imprecise and say one to mean the other and vice versa.
+
+In order to try to help build your instinct for understanding the concepts,
+we'll often "over-explain" or make a sentence seem ridiculously long. We're
+doing this intentionally in order to try to help you build an intuition about
+the actors in this story.
+
+Also, to help keep terminology from getting in the way, we involve genies.
+We admit, this is a whimsical approach but assure you no genies were harmed in
+the production of this lesson.
+
+Be patient with yourself as you learn this material.
+
+### Terminal Programs
 
 A terminal program is a program that listens for keyboard input and hands it
-off to a magical genie who lives inside your computer. When the magical genie
-tells the terminal to draw letters on its screen, it does so.
+off to a magical genie who lives inside your computer. Also, when the magical
+genie tells the terminal to draw letters on its screen, it does so. For
+example, when you are in a terminal program and type the letter `l` the
+terminal program senses the `l` and tells the genie. The genie then tells the
+terminal to draw an `l` on its screen. The terminal then looks up your font
+preferences and color preferences and draws the appropriate `l`.
 
 This might be confusing, but let's compare it to television. A television is a
 device that listens to your remote control and then tells a magical genie
@@ -52,9 +69,7 @@ magical genie tells the television to draw a picture 120 times per second!
 
 The essential fact is that a terminal is a means for talking to the operating
 system's genie.  In lessons we'll refer to the "terminal" as the thing you type
-in, as a program you can launch, as a space you can click in. The genie will be
-a magical being that lives inside of computers that when you finish typing
-input in the terminal will hand the request to the genie.
+in, as a program you can launch, as a space you can click in.
 
 ## Recognize a Shell Interface
 
@@ -65,7 +80,7 @@ Above, when we said that the terminal hands requests and receives commands from
 a genie, a thing that _thinks_ and thing that _can find out things_, we were
 actually talking about "the shell." The _shell_ knows how to ask the operating
 system how big the hard drive is. The _shell_ knows how to ask the operating
-system if the web host `flatironschool.com` can be reached. The _shell_ **does
+system if the web site `flatironschool.com` can be reached. The _shell_ **does
 not** know how to display a terminal in 16 point Monaco font, that's the
 _terminal_.
 
@@ -81,8 +96,8 @@ prompts express developer uniqueness. We've seen weather reports, beautiful
 colors, computer temperatures in prompts. At heart, though, they they all carry
 your command to the operating system and run it.
 
-You can ask the computer to do many types of tasks via the shell via the
-terminal. From the shell's command prompt (that you see in the terminal) you
+You can ask the computer to do many types of tasks via the shell (via the
+terminal). From the shell's command prompt (that you see in the terminal) you
 can move or rename files just like you would from a window environment.  You
 can _also_ get diagnostic information ("How is my computer?") or help your
 computer recover without requiring a reboot ("Hm, computer, time to kill that
@@ -124,7 +139,10 @@ screen (the "response").
 You may sometimes hear the shell referred to as your "command line" or
 "terminal" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the terminal.
+interacting with the terminal. Because one can't see a shell _without_ a
+terminal, it's common to use the terms interchangeably. While _technically_
+erroneous, it's a common utterance and you should not ruin a cocktail party by
+insisting that you correct everyone's incorrect naming.
 
 ## Recognize Operating Systems Providing a Terminal
 
