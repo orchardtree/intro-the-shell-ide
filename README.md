@@ -31,6 +31,30 @@ terminal is an assumption for many technical jobs.
 2. Recognize a shell interface
 3. Recognize operating systems providing a terminal
 
+## Define What a Terminal Program Is
+
+First of all, we have to be honest here: the difference between "shell" and
+"terminal" is quite easy to get confused by. To make things worse, developers
+are often really imprecise and say one to mean the other and vice versa. This
+makes it harder for those learning about these tools. Be patient with yourself
+as you learn this material.
+
+A terminal program is a program that listens for keyboard input and hands it
+off to a magical genie who lives inside your computer. When the magical genie
+tells the terminal to draw letters on its screen, it does so.
+
+This might be confusing, but let's compare it to television. A television is a
+device that listens to your remote control and then tells a magical genie
+(different genie, of course) which feed of data to find. When the genie finds
+the data (maybe on a coaxial cable, or satellite dish) it commands the
+television to display the picture. On most modern televisions, in fact, the
+magical genie tells the television to draw a picture 120 times per second!
+
+The essential fact is that a terminal is a means for talking to the operating
+system's genie.  In lessons we'll refer to the "terminal" as the thing you type
+in, as a program you can launch, as a space you can click in. The genie will be
+a magical being that lives inside of computers that when you finish typing
+input in the terminal will hand the request to the genie.
 
 ## Define What a Shell Program Is
 
