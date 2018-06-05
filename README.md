@@ -27,9 +27,9 @@ terminal is an assumption for many technical jobs.
 
 ## Learning Objectives
 
-3. Recognize operating systems providing a shell
 1. Define what a terminal program is
 2. Recognize a terminal interface
+3. Recognize operating systems providing a terminal
 
 ## Define What a Shell Program Is
 
