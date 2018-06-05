@@ -73,6 +73,8 @@ in, as a program you can launch, as a space you can click in.
 
 ## Recognize a Shell Interface
 
+### Shell Interfaces Described
+
 OK, sorry, genies don't exist. Well, at the very least, operating system genies
 don't exist.
 
@@ -81,20 +83,30 @@ a genie, a thing that _thinks_ and thing that _can find out things_, we were
 actually talking about "the shell." The _shell_ knows how to ask the operating
 system how big the hard drive is. The _shell_ knows how to ask the operating
 system if the web site `flatironschool.com` can be reached. The _shell_ **does
-not** know how to display a terminal in 16 point Monaco font, that's the
-_terminal_.
+not** know how to display "Hello World" in 16 point Monaco font on a black
+background, that's the _terminal_.
 
 A shell is a program hosted _inside of a terminal_ that interacts with the
-operating system on your behalf. It takes input that you type in. It looks at
-that input and asks the operating system to interpret that request. It then
-hands back to the terminal (for displaying) the result of the command.
+operating system on your behalf. It's because of the fact that you can't
+interact with a _shell_ without a _terminal_ that some imprecisely call the
+_terminal_ "the shell."
 
-When you see a terminal, the shell that is hosted in it will present to you a
+The shell, since it can think and do things, takes input that you type in. It
+looks at that input and asks the operating system to interpret that request.
+When the operating system comes back with results, the shell then hands back to
+the terminal (for displaying) the result of the command.
+
+When you see a terminal, the shell hosted inside of it it will present to you a
 "command prompt." This means, from the computer's perspective "I'm
 listening..." Prompts may look different from computer to computer. Customized
 prompts express developer uniqueness. We've seen weather reports, beautiful
-colors, computer temperatures in prompts. At heart, though, they they all carry
-your command to the operating system and run it.
+colors, computer temperatures in prompts. At heart, though, they they all have
+the same function: to carry your command to the operating system and run it.
+
+Here's a terminal application (iTerm2) running a shell (this one happens to be
+called zsh, there are many, it's no big deal).
+
+<img alt="MacOSX Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
 
 You can ask the computer to do many types of tasks via the shell (via the
 terminal). From the shell's command prompt (that you see in the terminal) you
@@ -105,44 +117,44 @@ hung Chrome tab with the Twitch stream...").  You can ask the computer to run
 your own programs like `ruby my_awesome_program.rb` or even to launch an
 application!
 
-A shell interface as presented by a terminal looks like the following pictures
-below.
+When interacting with a shell via a terminal application, you'll be engaged in
+a cycle called the "prompt-evaluation-response cycle." By this, we mean that
+you will be given a command prompt, you will provide a command that will be
+evaluated by the shell with the help of the operating system and results will
+be printed for you. To trigger evaluation of your command you strike the
+`return` or `enter` keys.
 
-Typically you'll be given some text output and a command prompt. The prompt
-will receive commands. You tell the terminal you're done typing and that it
-should consider your request by hitting `return` or `enter`. After receiving
-your command the shell will work with the operating system to process your
-request.  After coming to a conclusion, the shell will tell the terminal to
-display the results of its collaboration.  This cycle can be called a
-"prompt-evaluation-response cycle."
+### See Shells in the Wild
 
-Here's the Learn In-Browser IDE's terminal. Since the terminal environment is
-so important for us that whenever you open the IDE, the command prompt for the
-shell is also
-shown.  You will interact with the shell when you run commands like `learn` and
-`learn submit`.
+Since the terminal environment is so important for us, whenever you open the
+IDE, the LearnIDE terminal is automatically shown.  You will interact with the
+shell through this terminal when you run commands like `learn` and `learn
+submit`.
 
 <img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
 
-Here's the Terminal application in MacOSX running a shell. You can launch it by
-navigating with the Finder to `Applications` &rarr; `Utilities` &rarr;
-`Terminal`.
+Here's the Terminal application in MacOSX running a terminal program. You can
+launch it by navigating with the Finder to `Applications` &rarr; `Utilities`
+&rarr; `Terminal`. There are other third-party terminal programs too. They all
+provide a way of using a shell. Liking one over the other is a matter of
+preference.
 
 <img alt="MacOSX Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
 
-Here we see the prompt-evaluation-response cycle, here we
-are providing the command `echo` which, well, repeats the command back to the
-screen (the "response").
+Here we see the prompt-evaluation-response cycle, here we are providing the
+command `echo` which, well, repeats the command back to the terminal (the
+"response").
 
 <img alt="MacOSX Shell response" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/prompt_response.png" width=595>
+
+### Erroneous Use
 
 You may sometimes hear the shell referred to as your "command line" or
 "terminal" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the terminal. Because one can't see a shell _without_ a
-terminal, it's common to use the terms interchangeably. While _technically_
-erroneous, it's a common utterance and you should not ruin a cocktail party by
-insisting that you correct everyone's incorrect naming.
+interacting with the shell (as presented by the terminal).  While some uses are
+_technically_ erroneous, it's a common utterance and you should not ruin a
+party by correcting everyone's imprecise naming.
 
 ## Recognize Operating Systems Providing a Terminal
 
@@ -164,7 +176,6 @@ _The video below describes what the shell installed with Mac OS X looks like_
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/uxANgIcjmQg?rel=0&amp;showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe>
 
 [Download Video](http://flatiron-videos.s3.amazonaws.com/ironboard/welcome%20to%20the%20shell.mp4)
-
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-the-shell-ide'>Intro to the Shell</a> on Learn.co and start learning to code for free.</p>
 
