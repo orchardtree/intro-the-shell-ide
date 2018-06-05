@@ -1,4 +1,4 @@
-# Introduction to the Shell
+# Introduction to the Terminal
 
 ## Problem Statement
 
@@ -15,21 +15,21 @@ techniques they've learned. They can imagine what might be wrong. To get more
 data or to verify their guess, they _open up the hood_. Learning to be a
 developer (_computer mechanic_?) is similar. You must start "looking under the
 hood" of your computer. To access the "hood's" contents, you must use the
-shell.
+terminal.
 
-Developers "talk" to the computer by engaging it at the shell level. The shell
+Developers "talk" to their computers through the terminal. The terminal
 is just another way to collaborate with the computer. It might feel
 "old-school" or clunky at first compared with Windows or MacOSX. As you learn
 more, though, it might surprise you!
 
-Shell skills are critical in being a developer or HTML author.  Comfort in the
-shell is an assumption for many technical jobs.
+Terminal skills are critical in being a developer or HTML author.  Comfort in the
+terminal is an assumption for many technical jobs.
 
 ## Learning Objectives
 
-1. Define what a shell program is
-2. Recognize a shell interface
 3. Recognize operating systems providing a shell
+1. Define what a terminal program is
+2. Recognize a terminal interface
 
 ## Define What a Shell Program Is
 
@@ -86,21 +86,21 @@ screen (the "response").
 You may sometimes hear the shell referred to as your "command line" or
 "terminal" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the shell.
+interacting with the terminal.
 
-## Recognize Operating Systems Providing a Shell
+## Recognize Operating Systems Providing a Terminal
 
 All operating systems (MacOS, Windows, and Linux / Unix) provide
-a shell! While developers often disagree about which  is the
-best, time has borne out that they nearly all agree that a shell-based
+a terminal! While developers often disagree about which operating system is the
+best, time has borne out that they nearly all agree that a terminal-based
 interface is a power-tool they can't live without.
 
 ## Conclusion
 
-Ultimately a shell is a way for you to interact with your computer. It's a
+Ultimately a terminal is a way for you to interact with your computer. It's a
 different style than the point-and-click graphical user interfaces that you
 might know, but it is incredibly powerful and is the workbench of many
-developers. Shell interfaces are provided by all major operating systems and
+developers. Terminal interfaces are provided by all major operating systems and
 are marked by their prompt, evaluation, response cycle.
 
 
