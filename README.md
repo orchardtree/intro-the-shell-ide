@@ -56,27 +56,39 @@ in, as a program you can launch, as a space you can click in. The genie will be
 a magical being that lives inside of computers that when you finish typing
 input in the terminal will hand the request to the genie.
 
-## Define What a Shell Program Is
+## Recognize a Shell Interface
 
-The shell is the program on your computer that takes in commands you type and
-takes action based on those commands. You can think of yourself as having a
-conversation with the computer.
+OK, sorry, genies don't exist. Well, at the very least, operating system genies
+don't exist.
 
-When you see a shell it will be at a "command prompt." This means, from the
-computer's perspective "I'm listening..." Prompts may look different from
-computer to computer. Customized prompts express developer uniqueness. We've
-seen weather reports, beautiful colors, computer temperatures in prompts. At
-heart, though, they they all carry your command to the operating system and run
-it.
+Above, when we said that the terminal hands requests and receives commands from
+a genie, a thing that _thinks_ and thing that _can find out things_, we were
+actually talking about "the shell." The _shell_ knows how to ask the operating
+system how big the hard drive is. The _shell_ knows how to ask the operating
+system if the web host `flatironschool.com` can be reached. The _shell_ **does
+not** know how to display a terminal in 16 point Monaco font, that's the
+_terminal_.
 
-You can ask the computer to do many types of tasks. From the command prompt you
-can move or rename files just like you would do from a window environment.  You
+A shell is a program hosted _inside of a terminal_ that interacts with the
+operating system on your behalf. It takes input that you type in. It looks at
+that input and asks the operating system to interpret that request. It then
+hands back to the terminal (for displaying) the result of the command.
+
+When you see a terminal, the shell that is hosted in it will present to you a
+"command prompt." This means, from the computer's perspective "I'm
+listening..." Prompts may look different from computer to computer. Customized
+prompts express developer uniqueness. We've seen weather reports, beautiful
+colors, computer temperatures in prompts. At heart, though, they they all carry
+your command to the operating system and run it.
+
+You can ask the computer to do many types of tasks via the shell via the
+terminal. From the shell's command prompt (that you see in the terminal) you
+can move or rename files just like you would from a window environment.  You
 can _also_ get diagnostic information ("How is my computer?") or help your
 computer recover without requiring a reboot ("Hm, computer, time to kill that
 hung Chrome tab with the Twitch stream...").  You can ask the computer to run
-programs like `ruby my_awesome_program.rb` or even to launch an application!
-
-## Recognize a Shell Interface
+your own programs like `ruby my_awesome_program.rb` or even to launch an
+application!
 
 A shell interface looks like the following pictures below.
 
