@@ -22,8 +22,8 @@ is just another way to collaborate with the computer. It might feel
 "old-school" or clunky at first compared with Windows or MacOSX. As you learn
 more, though, it might surprise you!
 
-Terminal skills are critical in being a developer or HTML author.  Comfort in the
-terminal is an assumption for many technical jobs.
+Terminal skills are critical in being a developer or HTML author.  Comfort in
+the terminal is a requirement for many technical jobs.
 
 ## Learning Objectives
 
@@ -41,14 +41,13 @@ are often imprecise and say one to mean the other and vice versa.
 
 In order to try to help build your instinct for understanding the concepts,
 we'll often "over-explain" or make a sentence seem ridiculously long. We're
-doing this intentionally in order to try to help you build an intuition about
-the actors in this story.
+doing this to help you build your developer intuition.
 
 Also, to help keep terminology from getting in the way, we involve genies.
 We admit, this is a whimsical approach but assure you no genies were harmed in
 the production of this lesson.
 
-Be patient with yourself as you learn this material.
+You're leveling up.  Be patient with yourself as you learn this material.
 
 ### Terminal Programs
 
@@ -58,33 +57,24 @@ genie tells the terminal to draw letters on its screen, it does so. For
 example, when you are in a terminal program and type the letter `l` the
 terminal program senses the `l` and tells the genie. The genie then tells the
 terminal to draw an `l` on its screen. The terminal then looks up your font
-preferences and color preferences and draws the appropriate `l`.
+preferences and color preferences and draws the appropriate `l`.  **A terminal
+is a means for talking to the operating system's genie.**
 
-This might be confusing, but let's compare it to television. A television is a
-device that listens to your remote control and then tells a magical genie
-(different genie, of course) which feed of data to find. When the genie finds
-the data (maybe on a coaxial cable, or satellite dish) it commands the
-television to display the picture. On most modern televisions, in fact, the
-magical genie tells the television to draw a picture 120 times per second!
-
-The essential fact is that a terminal is a means for talking to the operating
-system's genie.  In lessons we'll refer to the "terminal" as the thing you type
-in, as a program you can launch, as a space you can click in.
+> **In lessons we'll refer to the "terminal" as the thing you type in, as a program
+> you can launch, as a space you can click in.**
 
 ## Recognize a Shell Interface
 
 ### Shell Interfaces Described
 
 OK, sorry, genies don't exist. Well, at the very least, operating system genies
-don't exist.
-
-Above, when we said that the terminal hands requests and receives commands from
-a genie, a thing that _thinks_ and thing that _can find out things_, we were
-actually talking about "the shell." The _shell_ knows how to ask the operating
-system how big the hard drive is. The _shell_ knows how to ask the operating
-system if the web site `flatironschool.com` can be reached. The _shell_ **does
-not** know how to display "Hello World" in 16 point Monaco font on a black
-background, that's the _terminal_.
+don't exist. When we said "genie" above what we really meant was "the shell."
+The shell collaborates with the operating system to _think_ and _to find out
+things_.  The _shell_ knows how to ask the operating system how big the hard
+drive is. The _shell_ knows how to ask the operating system if the web site
+`flatironschool.com` can be reached. **However**, the _shell_ **does not** know
+how to display "Hello World" in 16-point Monaco font on a black background,
+that's the _terminal_.
 
 A shell is a program hosted _inside of a terminal_ that interacts with the
 operating system on your behalf. It's because of the fact that you can't
@@ -98,31 +88,28 @@ the terminal (for displaying) the result of the command.
 
 When you see a terminal, the shell hosted inside of it it will present to you a
 "command prompt." This means, from the computer's perspective "I'm
-listening..." Prompts may look different from computer to computer. Customized
-prompts express developer uniqueness. We've seen weather reports, beautiful
-colors, computer temperatures in prompts. At heart, though, they they all have
-the same function: to carry your command to the operating system and run it.
+listening..." Prompts may look different from computer to computer. At their
+simplest they're usually written as `$`, but we've seen people include weather,
+current song playing on iTunes, etc.
 
 Here's a terminal application (iTerm2) running a shell (this one happens to be
 called zsh, there are many, it's no big deal).
 
 <img alt="MacOSX Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
 
-You can ask the computer to do many types of tasks via the shell (via the
-terminal). From the shell's command prompt (that you see in the terminal) you
-can move or rename files just like you would from a window environment.  You
-can _also_ get diagnostic information ("How is my computer?") or help your
-computer recover without requiring a reboot ("Hm, computer, time to kill that
-hung Chrome tab with the Twitch stream...").  You can ask the computer to run
-your own programs like `ruby my_awesome_program.rb` or even to launch an
-application!
-
 When interacting with a shell via a terminal application, you'll be engaged in
 a cycle called the "prompt-evaluation-response cycle." By this, we mean that
 you will be given a command prompt, you will provide a command that will be
 evaluated by the shell with the help of the operating system and results will
 be printed for you. To trigger evaluation of your command you strike the
-`return` or `enter` keys.
+`return` or `enter` keys. Here's an example:
+
+<img alt="A terminal session" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/cli.gif" width=595>
+
+In the terminal you see us use the `uptime` command to ask the shell how long
+the machine has been up and running. We then ask the shell to `echo` back what
+we typed. Finally we asked the shell to make sure that Google is still there.
+
 
 ### See Shells in the Wild
 
@@ -136,16 +123,13 @@ submit`.
 Here's the Terminal application in MacOSX running a terminal program. You can
 launch it by navigating with the Finder to `Applications` &rarr; `Utilities`
 &rarr; `Terminal`. There are other third-party terminal programs too. They all
-provide a way of using a shell. Liking one over the other is a matter of
-preference.
+provide a way of using a shell. It's a bit like espresso drinks: some people
+prefer a flat white, others an espresso, and yet others a mocha sugarbomb venti
+frap-O-blaster. At the end of the day, they're all differing degrees around a
+simple espresso shot.
 
 <img alt="MacOSX Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
 
-Here we see the prompt-evaluation-response cycle, here we are providing the
-command `echo` which, well, repeats the command back to the terminal (the
-"response").
-
-<img alt="MacOSX Shell response" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/prompt_response.png" width=595>
 
 ### Erroneous Use
 
