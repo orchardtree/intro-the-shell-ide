@@ -90,20 +90,21 @@ hung Chrome tab with the Twitch stream...").  You can ask the computer to run
 your own programs like `ruby my_awesome_program.rb` or even to launch an
 application!
 
-A shell interface looks like the following pictures below.
+A shell interface as presented by a terminal looks like the following pictures
+below.
 
 Typically you'll be given some text output and a command prompt. The prompt
-will receive commands. You tell the shell you're done typing and that it should
-consider your request by hitting `return` or `enter`. After receiving your
-command the shell will respond with the information you requested, or will
-signal that it did your bidding (say renaming a file), or it will print an
-error message. Then you'll be given another prompt and can do it again, and
-again, and again.... This cycle can be called a "prompt-evaluation-response
-cycle."
+will receive commands. You tell the terminal you're done typing and that it
+should consider your request by hitting `return` or `enter`. After receiving
+your command the shell will work with the operating system to process your
+request.  After coming to a conclusion, the shell will tell the terminal to
+display the results of its collaboration.  This cycle can be called a
+"prompt-evaluation-response cycle."
 
-Here's the Learn In-Browser IDE's shell. Since the shell environment is so
-important for us, whenever you open the IDE the command prompt is also shown.
-You will interacting with the shell when you run commands like `learn` and
+Here's the Learn In-Browser IDE's terminal. Since the terminal environment is
+so important for us that whenever you open the IDE, the command prompt for the
+shell is also
+shown.  You will interact with the shell when you run commands like `learn` and
 `learn submit`.
 
 <img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
@@ -127,10 +128,9 @@ interacting with the terminal.
 
 ## Recognize Operating Systems Providing a Terminal
 
-All operating systems (MacOS, Windows, and Linux / Unix) provide
-a terminal! While developers often disagree about which operating system is the
-best, time has borne out that they nearly all agree that a terminal-based
-interface is a power-tool they can't live without.
+All operating systems (MacOS, Windows, and Linux / Unix) provide a terminal
+interface to a shell! Time has borne out that developers consider a shell-based
+interface a power-tool they can't live without.
 
 ## Conclusion
 
