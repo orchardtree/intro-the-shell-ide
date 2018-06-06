@@ -2,114 +2,136 @@
 
 ## Problem Statement
 
-How are we to interact with our computer _as developers_? While you might have
-been using computers for years, you've likely been engaging with them as a
-_user_ not a _developer_.
+Developers use their computers differently than you might have in the past. By
+deciding to take this course, you're saying "I want to do that, too!" People
+using their computers to code or write HTML "talk" to their computer through a
+_terminal_ that runs a program called a _shell_. The terminal might be new to
+you, so this lab is going to give you a tour.
 
-What's the difference? Well consider a mechanic driving to work. In that
-moment, waiting in traffic, they are a _user_ of the car. But then they take a
-right turn and *cough*, *splutter* their car chokes to a stop. At once their
-mind changes to being a _mechanic_ or a _developer_. They think about
-petroleum, spark-plugs and ignitions. They can _debug_ their car using
-techniques they've learned. They can imagine what might be wrong. To get more
-data or to verify their guess, they _open up the hood_. Learning to be a
-developer (_computer mechanic_?) is similar. You must start "looking under the
-hood" of your computer. To access the "hood's" contents, you must use the
-shell.
-
-Developers "talk" to the computer by engaging it at the shell level. The shell
-is just another way to collaborate with the computer. It might feel
-"old-school" or clunky at first compared with Windows or MacOSX. As you learn
-more, though, it might surprise you!
-
-Shell skills are critical in being a developer or HTML author.  Comfort in the
-shell is an assumption for many technical jobs.
+The terminal might feel clunky at first compared with Windows or MacOSX. As you
+learn more, though, it might start to grow on you!
 
 ## Learning Objectives
 
-1. Define what a shell program is
-2. Recognize a shell interface
-3. Recognize operating systems providing a shell
+1. Define what a terminal program is
+2. Recognize a shell program
+3. Recognize operating systems providing a terminal
+4. Explain confusing terms used when talking about the shell
 
-## Define What a Shell Program Is
+## Define What a Terminal Program Is
 
-The shell is the program on your computer that takes in commands you type and
-takes action based on those commands. You can think of yourself as having a
-conversation with the computer.
+A terminal program is a program that runs _another_ program, called a "shell."
 
-When you see a shell it will be at a "command prompt." This means, from the
-computer's perspective "I'm listening..." Prompts may look different from
-computer to computer. Customized prompts express developer uniqueness. We've
-seen weather reports, beautiful colors, computer temperatures in prompts. At
-heart, though, they they all carry your command to the operating system and run
-it.
+Computers used to be more expensive than _houses_. Most businesses couldn't
+afford for everyone to have their own computer. In order to share the computer,
+people had small machines with screens with keyboards called "terminals." These
+terminals would be connected to the computer by a long cable.  Terminals did
+_not_ have mice or a local hard drive.
 
-You can ask the computer to do many types of tasks. From the command prompt you
-can move or rename files just like you would do from a window environment.  You
-can _also_ get diagnostic information ("How is my computer?") or help your
-computer recover without requiring a reboot ("Hm, computer, time to kill that
-hung Chrome tab with the Twitch stream...").  You can ask the computer to run
-programs like `ruby my_awesome_program.rb` or even to launch an application!
+Here's an picture of a terminal.
 
-## Recognize a Shell Interface
+<img alt="Digital Electronics Corporation (DEC) VT101" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/vt101_term.jpg" width=595>
 
-A shell interface looks like the following pictures below.
+Workers in those days would go to their terminal and do work on the big giant
+machine in a far-off, well-cooled room.
 
-Typically you'll be given some text output and a command prompt. The prompt
-will receive commands. You tell the shell you're done typing and that it should
-consider your request by hitting `return` or `enter`. After receiving your
-command the shell will respond with the information you requested, or will
-signal that it did your bidding (say renaming a file), or it will print an
-error message. Then you'll be given another prompt and can do it again, and
-again, and again.... This cycle can be called a "prompt-evaluation-response
-cycle."
+In the 80's and 90's _personal_ computers became affordable. Companies like
+Apple, IBM, HP, etc. put computers on everyone's desk. The terminals were
+tossed.  But the _old_ computers the terminals _still_ had good data in them.
+In order to talk to those computers, developers created programs called
+"_terminal emulators_." _Emulate_ means "mimic" or "copy".  A _terminal
+emulator_ let them use the information stored on the old, shared machine in the
+new.
 
-Here's the Learn In-Browser IDE's shell. Since the shell environment is so
-important for us, whenever you open the IDE the command prompt is also shown.
-You will interacting with the shell when you run commands like `learn` and
-`learn submit`.
 
-<img alt="Learn In-Browser IDE Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
+**"Terminal emulator" software mimics using a real-world terminal**. People
+usually say "terminal" instead of "terminal emulator." So now you know what a
+terminal program is! Let's see a few!
 
-Here's the Terminal application in MacOSX running a shell. You can launch it by
-navigating with the Finder to `Applications` &rarr; `Utilities` &rarr;
-`Terminal`.
+### Specific Terminal Programs
 
-<img alt="MacOSX Shell" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
+Flatiron School's LearnIDE has a terminal:
 
-Here we see the prompt-evaluation-response cycle, here we
-are providing the command `echo` which, well, repeats the command back to the
-screen (the "response").
+<img alt="Learn In-Browser IDE terminal" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
 
-<img alt="MacOSX Shell response" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/prompt_response.png" width=595>
+The terminal is very important for Flatiron learners. When you open the IDE,
+the terminal will be auto-opened.
+
+MacOSX ships with a terminal program called `Terminal` located in
+`Applications` &rarr; `Utilities` &rarr; `Terminal`. It looks like this:
+
+<img alt="MacOSX's terminal program, Terminal" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/osx_shell.png" width=595>
+
+There are a number of terminal programs for every operating system. They all do
+the same thing. They give you a _shell_ in which to work. We'll talk about
+shells in the next section!
+
+> **NOTE**: We will use `Terminal` to refer to the MacOSX program called
+> `Terminal`. Lower-case `terminal` is short for `terminal emulator` and refers
+> to any program that allows you to talk to a computer through a screen and
+> keyboard.
+
+## Recognize a Shell Program
+
+When you launch any of the _terminal_ programs, a _shell_ program is
+launched with it.
+
+The shell is the program on your computer that reads commands you type in and
+takes action based on those commands. The shell will take your command and work
+with the computer's operating system to try to answer your request. It will
+return the result of that request to your table.
+
+The shell behaves like a waiter. You can give it a command like "get ONE
+CHEESEBURGER; MEDIUM." It will go to the kitchen, work with the cook and bring
+back what you requested. You can tell the shell "delete `carlton_dance.gif` from
+my Desktop" and it will!
+
+### Recognizing the Command Prompt of the Shell
+
+When you see a shell, it will be at a **command prompt**. This means, from the
+computer's perspective "I'm listening..." It's like when our waiter pulls out
+their notepad and pencil and asks if they can take your order.  Prompts may
+look different from computer to computer. Don't let that confuse you. We've
+seen weather reports, beautiful colors, and bitcoin trading prices in prompts.
+At heart, though, they they all ask: "What can I do for you?"
+
+> **NOTE:** In many technical web pages, books, and sites  you'll see `$` to
+> show a prompt. It's a tradition
+> dating back to the 1960's.
+
+You can ask the computer to do many types of tasks: show what's inside a file,
+check to see if the site `www.flatironschool.com` is available, run a program
+you wrote, etc. Just like learning to order at a restaurant, you'll have to
+learn some phrases that the shell understands, but we'll lead you through that
+process slowly.
+
+Here's an example showing us working with the shell. You might see a
+pattern here: prompt, run, result. Prompt, run, result. Over and over.
+
+<img src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/cli.gif" alt="Demonstration of using the shell" width=595>
+
+## Recognize Operating Systems Providing a Terminal
+
+All operating systems provide a terminal! Time has shown that a terminal is a
+valuable ally!
+
+## Explain Confusing Terms Used When Talking About The Shell
 
 You may sometimes hear the shell referred to as your "command line" or
 "terminal" or "console". There are some subtle differences between each of
 those terms, but by and large you can think of these as referring to ways of
-interacting with the shell.
-
-## Recognize Operating Systems Providing a Shell
-
-All operating systems (MacOS, Windows, and Linux / Unix) provide
-a shell! While developers often disagree about which  is the
-best, time has borne out that they nearly all agree that a shell-based
-interface is a power-tool they can't live without.
+working with the _shell_ via a _terminal_ program.
 
 ## Conclusion
 
-Ultimately a shell is a way for you to interact with your computer. It's a
-different style than the point-and-click graphical user interfaces that you
-might know, but it is incredibly powerful and is the workbench of many
-developers. Shell interfaces are provided by all major operating systems and
-are marked by their prompt, evaluation, response cycle.
-
-
-_The video below describes what the shell installed with Mac OS X looks like_
+A shell is a another way for you to work with your computer.  It's a different
+style than the mouse- or touch-based styles you may have used before.  It is
+the workhorse of technical authors and software developers.  Terminal programs
+are present on all major operating systems.
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/uxANgIcjmQg?rel=0&amp;showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe>
 
 [Download Video](http://flatiron-videos.s3.amazonaws.com/ironboard/welcome%20to%20the%20shell.mp4)
-
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/intro-the-shell-ide'>Intro to the Shell</a> on Learn.co and start learning to code for free.</p>
 
