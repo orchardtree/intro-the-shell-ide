@@ -36,21 +36,21 @@ Workers in those days would go to their terminal and do work on the big giant
 machine in a far-off, well-cooled room.
 
 In the 80's and 90's _personal_ computers became affordable. Companies like
-Apple, IBM, HP, etc. put computers on everyone's desk. The terminals were
-tossed.  But the _old_ computers the terminals _still_ had good data in them.
-In order to talk to those computers, developers created programs called
-"_terminal emulators_." _Emulate_ means "mimic" or "copy".  A _terminal
-emulator_ let them use the information stored on the old, shared machine in the
-new.
+Apple, IBM and HP put computers on everyone's desk. The terminals were
+tossed.  But the _old_ computers the terminals used to talk to _still_ had 
+good data in them. In order to talk to those computers, developers created 
+programs called "_terminal emulators_." _Emulate_ means "mimic" or "copy".  
+A _terminal emulator_ let them use the information stored on the old, shared 
+computers in the new personal ones.
 
 
 **"Terminal emulator" software mimics using a real-world terminal**. People
 usually say "terminal" instead of "terminal emulator." So now you know what a
-terminal program is! Let's see a few!
+terminal program is, let's see a few!
 
 ### Specific Terminal Programs
 
-Flatiron School's LearnIDE has a terminal:
+Flatiron School's Learn IDE has a terminal:
 
 <img alt="Learn In-Browser IDE terminal" src="https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/learn_shell.png" width=595>
 
@@ -88,7 +88,7 @@ my Desktop" and it will!
 
 ### Recognizing the Command Prompt of the Shell
 
-When you see a shell, it will be at a **command prompt**. This means, from the
+When you see a shell, it will be displaying a **command prompt**. This means, from the
 computer's perspective "I'm listening..." It's like when our waiter pulls out
 their notepad and pencil and asks if they can take your order.  Prompts may
 look different from computer to computer. Don't let that confuse you. We've
@@ -96,8 +96,7 @@ seen weather reports, beautiful colors, and bitcoin trading prices in prompts.
 At heart, though, they they all ask: "What can I do for you?"
 
 > **NOTE:** In many technical web pages, books, and sites  you'll see `$` to
-> show a prompt. It's a tradition
-> dating back to the 1960's.
+> show a prompt. It's a tradition dating back to the 1960's.
 
 You can ask the computer to do many types of tasks: show what's inside a file,
 check to see if the site `www.flatironschool.com` is available, run a program
