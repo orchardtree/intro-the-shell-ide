@@ -93,7 +93,7 @@ computer's perspective "I'm listening..." It's like when our waiter pulls out
 their notepad and pencil and asks if they can take your order.  Prompts may
 look different from computer to computer. Don't let that confuse you. We've
 seen weather reports, beautiful colors, and bitcoin trading prices in prompts.
-At heart, though, they they all ask: "What can I do for you?"
+At heart, though, they all ask: "What can I do for you?"
 
 > **NOTE:** In many technical web pages, books, and sites  you'll see `$` to
 > show a prompt. It's a tradition dating back to the 1960's.
